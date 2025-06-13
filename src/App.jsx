@@ -32,7 +32,10 @@ function App() {
       </section>
 
       <section className="social-handles">
-
+        <a href="" className='s-icon'><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="" className='s-icon'><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="" className='s-icon'><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="" className='s-icon'><i class="fa fa-github-square" aria-hidden="true"></i></a>
       </section>
     </main>
   )

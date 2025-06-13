@@ -17,6 +17,8 @@ main {
   flex-direction: column;
   background-color: #1A1B21;
   border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .profile-img-container {
@@ -84,4 +86,19 @@ main {
   color: #DCDCDC;
   font-size: .8rem;
   line-height: 17px;
+}
+
+.social-handles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 1.8rem;
+  padding: 20px 0;
+  background-color: #161619;
+  border-radius: 0 0 20px 20px;
+  margin-top: 20px;
+}
+
+.social-handles .s-icon {
+  color: #918E9B;
 }
